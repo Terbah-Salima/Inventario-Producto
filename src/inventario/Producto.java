@@ -25,11 +25,6 @@ public static Producto crearProducto(String nombre, double precio, int stock) {
         System.out.println("Producto: " + getNombre() + " | Precio: " + getPrecio() + " | Stock: " + getStock());
     }
 
-    public void borrarDatos() {
-        setNombre("");
-        setPrecio(0.0);
-        setStock(0);
-    }
 
     /**
      * @return the nombre
