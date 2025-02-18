@@ -13,11 +13,13 @@ public class Producto {
     private double precio;
     private int stock;
 
-    public Producto(String nombre, double precio, int stock) {
-        this.nombre = nombre;
-        this.precio = precio;
-        this.stock = stock;
-    }
+public static Producto crearProducto(String nombre, double precio, int stock) {
+    Producto producto = new Producto();
+    producto.nombre = nombre;
+    producto.precio = precio;
+    producto.stock = stock;
+    return producto;
+}
 
     public void mostrarInformacion() {
         System.out.println("Producto: " + getNombre() + " | Precio: " + getPrecio() + " | Stock: " + getStock());
