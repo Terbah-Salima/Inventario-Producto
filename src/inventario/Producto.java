@@ -45,7 +45,7 @@ public static Producto crearProducto(String nombre, double precio, int stock) {
     /**
      * Obtiene el nombre del producto.
      * 
-     * @return Nombre del producto.
+     * @return nombre del producto.
      */
     public String getNombre() {
         return nombre;
